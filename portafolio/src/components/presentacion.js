@@ -17,17 +17,17 @@ export default class Presentacion extends React.Component {
                       <div className="links">
                         <ul>
                           <li>
-                            <a href="" className="bitbucket" target="_blank">
+                            <a href="https://bitbucket.org/kevin-daniel/" className="bitbucket" target="_blank">
                               <i className="icon-bitbucket"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="" className="facebook" target="_blank">
+                            <a href="https://www.facebook.com/daniel.huamani.56" className="facebook" target="_blank">
                               <i className="icon-facebook"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="" className="github" target="_blank">
+                            <a href="https://github.com/danielhuamani" className="github" target="_blank">
                               <i className="icon-github"></i>
                             </a>
                           </li>
@@ -37,7 +37,7 @@ export default class Presentacion extends React.Component {
                             </a>
                           </li>
                           <li>
-                            <a href="" className="linkedin" target="_blank">
+                            <a href="https://www.linkedin.com/in/kevin-daniel-huamani-atiquipa-4808b3b7/" className="linkedin" target="_blank">
                               <i className="icon-linkedin2"></i>
                             </a>
                           </li>

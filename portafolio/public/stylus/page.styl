@@ -103,8 +103,11 @@
         display flex
         text-align left
         margin-top 50px
-        justify-content space-between
+        justify-content center
+        align-items center
         flex-wrap wrap
+        flex-direction column
+
         &__contenido
             font-size 14px
             font-family open
@@ -112,30 +115,35 @@
             width 100%
             box-sizing border-box
         &__item
-            margin-bottom 30px
-            background c-crema
+            margin-bottom 40px
             border-radius 7px
-            width 32%
+            width 80%
+            display flex
             transform scale(1)
             transition 0.3s ease all
             color c-negro
-            box-shadow 1px 1px 1px c-negro
+            // box-shadow 1px 1px 1px c-negro
+            align-items center
+
             &:hover
                 transform scale(1.05)
+            a
+                border-radius 6px
+                margin-right 20px
+                border none
+                padding 5px
             h4
-                font-size 22px
+                font-size 20px
                 font-family monserrat
                 display inline-block
                 margin-bottom 10px
-                background c-plomo
-                color white
-                padding 7px 12px
+                color c-plomo
                 width 100%
                 border-top-left-radius 7px
                 border-top-right-radius 7px
                 box-sizing border-box
-                font-weight 400
-                text-align center
+                font-weight 700
+                text-align left
             p
                 margin-bottom 5px
             span
