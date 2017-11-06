@@ -6,13 +6,13 @@ class ExperienciaItem extends React.Component{
     render(){
         const experiencia = this.props.data
         return(
-            <a className="experiencia_list__item">
+            <a className="experiencia_list__item" href={experiencia.url} target="_blank">
                 <h4 className="title">{experiencia.empresa}</h4>
                 <div className="experiencia_list__contenido">
-                    <p>Empresa dedicada al merketin digital</p>
-                    <p><span>Cargo:</span>Desarrollador Backend</p>
-                    <p>Desempeñe como maquetador y programador</p>
-                    <p><span>Tiempo:</span>Agosto 2014 - Octubre 2015</p>
+                    <p>{experiencia.rubro}</p>
+                    <p><span>Cargo:</span>{experiencia.cargo}</p>
+                    <div dangerouslySetInnerHTML={{__html: experiencia.tareas}}></div>
+                    <p><span>Tiempo:</span>{experiencia.tiempo}</p>
                 </div>
             </a>
         )

@@ -4,24 +4,58 @@ var data_experiencia = [
         'empresa': "StaffCreativa",
         'url': "http://www.staffcreativa.pe/",
         "rubro": "Empresa dedicada al marketing digital, desarrollo de paginas web y aplicaciones mobiles",
-        'cargo': "Me desenvolvi como maquetar y programador para la tecnologia que use fue css, html, js, jquery, Python -  Django",
+        'cargo': "Maquetador y Programador",
+        'tareas': "<p>Maquetación de sitios web, utilizando html5, css3 y javascript.</p> <p>Desarrollar los sitios Desarrollo implementando sistemas tipo intranet utilizando Python - Django.</p>",
         "tiempo": "Agosto 2014 - Octubre 2015"
     },
     {
         'id': 2,
-        'empresa': "BuissnesLogistic",
-        'url': "http://www.staffcreativa.pe/",
-        "rubro": "Empresa dedicada al marketing digital, desarrollo de paginas web y aplicaciones mobiles",
-        'cargo': "Me desenvolvi como maquetar y programador para la tecnologia que use fue css, html, js, jquery, Python -  Django",
-        "tiempo": "Agosto 2014 - Octubre 2015"
+        'empresa': "Business Logistics",
+        'url': "http://www.blgroup.pe/",
+        "rubro": "Empresa dedicada al rubro de TI",
+        "cargo": "Desarrollador Backend",
+        'tareas': "<p>Colaboración en análisis y programación de la primera fase de Software de Nombrada de los trabajadores portuarios del Terminal Portuario de Paracas, para lo cual se uso Python -  Django como backend y Postgres como base de datos</p>",
+        "tiempo": "Marzo 2015 - junio 2015 (Por horas)"
     },
     {
+
         'id': 3,
         'empresa': "Vounti",
-        'url': "http://www.staffcreativa.pe/",
+        'url': "https://www.linkedin.com/company/9480339/",
+        "rubro": "Start Up dedicada al Ecommerce",
+        "cargo": "Desarrollador Backend",
+        'tareas': "<p>Desarrollar plataforma de comercio Electrónico bajo la arquitectura SAAS.  Se uso como lenguaje Python -  Django</p>",
+        "tiempo": "Octubre 2015 - Febrero 2016"
+    },
+    {
+
+        'id': 4,
+        'empresa': "GRAMD",
+        'url': "http://www.gramd.com.pe/",
+        "rubro": "Empresa dedicada para ventas certificados digitales.",
+        "cargo": "Desarrollador Fullstack",
+        'tareas': "<p>Encargado del análisis y desarrollo de aplicaciones web, basadas en el lenguaje de programación Python con su framework django, adaptar la plantilla (css , html , js).</p><p>Desarrollo de Sistema que ayuda a automatizar las ventas de Certificados Digitales  el cual incluye scraping a la RENIEC y SUNAT</p>",
+        "tiempo": "Abril 2016 - Diciembre 2016"
+    },
+    {
+
+        'id': 5,
+        'empresa': "Tecnicas Metalicas",
+        'url': "http://www.tecnicasmetalicas.com.pe/",
+        "rubro": "Empresa dedicada a la fabricación de estructuras metalicas.",
+        "cargo": "Desarrollor Backend",
+        'tareas': "<p>Desarrollar ERP basado Python con su framework Django, utilizando como base de datos Postgres/SQL server (procedimientos almacenados), utilizando GIT como control de versiones.</p><p>Desarrollar el panel administrativo del ERP usando HTML, CSS, Javascript y Backbone.</p>",
+        "tiempo": "Enero 2017 - Abril 2017"
+    },
+    {
+
+        'id': 6,
+        'empresa': "StaffDigital",
+        'url': "https://www.staffdigital.pe/",
         "rubro": "Empresa dedicada al marketing digital, desarrollo de paginas web y aplicaciones mobiles",
-        'cargo': "Me desenvolvi como maquetar y programador para la tecnologia que use fue css, html, js, jquery, Python -  Django",
-        "tiempo": "Agosto 2014 - Octubre 2015"
+        "cargo": "Desarrollador Fullstack",
+        'tareas': "<p>Desarrollo de Ecommerce: Creando API REST con el lenguaje de programación Python - Django, integrando el frontend  con Vue js</p>",
+        "tiempo": "Mayo 2017 - Octubre 2017"
     }
 ];
 

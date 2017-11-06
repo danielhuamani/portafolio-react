@@ -4,9 +4,6 @@ import data_experiencia from "../requests/experiencia";
 
 class ExperienciaList extends React.Component{
 
-    constructor(props){
-        super(props);
-    }
     experiencia_item(){
 
         return data_experiencia.map(exp=>{

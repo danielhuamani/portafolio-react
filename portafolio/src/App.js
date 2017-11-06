@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Header from './components_globals/header'
 import Presentacion from './components/presentacion'
 import MisDatos from './components/mis_datos'

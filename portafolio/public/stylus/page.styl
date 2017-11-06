@@ -104,18 +104,22 @@
         text-align left
         margin-top 50px
         justify-content space-between
+        flex-wrap wrap
         &__contenido
             font-size 14px
             font-family open
             padding 5px 12px
             width 100%
+            box-sizing border-box
         &__item
-
+            margin-bottom 30px
             background c-crema
             border-radius 7px
-            width 28%
+            width 32%
             transform scale(1)
             transition 0.3s ease all
+            color c-negro
+            box-shadow 1px 1px 1px c-negro
             &:hover
                 transform scale(1.05)
             h4
@@ -130,6 +134,8 @@
                 border-top-left-radius 7px
                 border-top-right-radius 7px
                 box-sizing border-box
+                font-weight 400
+                text-align center
             p
                 margin-bottom 5px
             span
