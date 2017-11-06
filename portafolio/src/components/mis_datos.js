@@ -21,7 +21,7 @@ class MisDatos extends React.Component {
                         <p>Actualmente ando enfocado en Javascript en especifico en Vue js </p>
                         <p>Email: danielhuamani15@gmail.com -  Celular: 959479450 </p>
                       </div>
-                      <div className="descargar-cv"><a href="" target="_blank" className="btn btn-primary">Descargar CV</a></div>
+                      <div className="descargar-cv"><a href={process.env.PUBLIC_URL + '/archive/curriculum-vitae.pdf'} target="_blank" className="btn btn-primary">Descargar CV</a></div>
                     </div>
 
                   </div>
