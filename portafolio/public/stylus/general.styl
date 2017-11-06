@@ -1,0 +1,89 @@
+c-celeste = #0A6EBD
+c-negro = #000000
+c-rojo = #EA5455
+c-plomo = #1c2833
+c-blanco = #fff
+c-crema = #f6f6f6
+
+lato = 'Lato', sans-serif;
+open = 'Open Sans', sans-serif;
+monserrat = 'Montserrat', sans-serif;
+
+*
+    margin 0px
+    padding 0px
+
+ul li
+    list-style-type none
+
+a
+    text-decoration none
+.cnt-general
+    width 98%
+    max-width 1200px
+    margin auto
+
+h2.title
+
+    display inline-block
+    padding 0px 20px
+    font-size 30px
+    color c-plomo
+    font-family monserrat
+    border-bottom 2px solid c-rojo
+
+.btn
+    padding 8px 15px
+    font-family lato
+    border-radius 4px
+
+.btn-primary
+    background c-plomo
+    color c-blanco
+
+    transition 0.3s ease all
+    &:hover
+        background c-rojo
+header
+    position fixed
+    top 0px
+    z-index 40
+    border-bottom 1px solid c-rojo
+    background #1c2833
+    width 100%
+
+    &:before
+        content ""
+    .cnt-general
+        display flex
+        align-items center
+        justify-content space-between
+        h1.logo
+            font-size 32px
+            font-family open
+            color c-blanco
+        nav.menu-principal
+
+
+            ul
+                display flex
+
+                align-items center
+                justify-content space-around
+                li.active
+                    a
+                        background c-rojo
+
+                li
+
+                    a
+                        display block
+                        padding 20px 20px
+                        color c-blanco
+                        font-size 18px
+                        font-family monserrat
+                        transition .2s all ease
+                        font-weight 400
+                    &:hover
+                        a
+                            background c-rojo
