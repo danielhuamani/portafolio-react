@@ -5,6 +5,7 @@
     padding-bottom 30px
     background-size cover
     position relative
+    background-position center center
     height 300px
     &:after
         content ""
@@ -184,3 +185,34 @@
                     margin-bottom 5PX
                     font-family open
                     font-size 14px
+
+
+@media screen and (max-width: 960px)
+    #perfil .cnt-general .detalle-avatar
+        flex-direction column
+        .detalle .descargar-cv
+            text-align center
+        figure
+            margin 0
+            margin-bottom 20px
+    #experiencia
+        .experiencia_list__item
+            width 100%
+            flex-direction column
+            a
+                margin 0
+                text-align center
+                margin-bottom 20px
+        .experiencia_list__contenido
+            h4
+                text-align center
+@media screen and (max-width: 480px)
+    h2.title
+        font-size 26px
+    #presentacion
+        height 240px
+        .cnt-general .page
+            h2
+                font-size 26px
+            h3
+                font-size 18px

@@ -8,6 +8,7 @@ export default class Header extends React.Component {
                     <h1 className="logo">
                       Daniel Huamani
                     </h1>
+                    <div class="icon-menu menu"></div>
                     <nav className="menu-principal">
                       <ul>
                         <li><a href="">Perfil</a></li>
