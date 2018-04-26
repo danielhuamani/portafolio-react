@@ -40,7 +40,7 @@ var data_experiencia = [
         'url': "http://www.gramd.com.pe/",
         "rubro": "Empresa dedicada para ventas certificados digitales.",
         "cargo": "Desarrollador Fullstack",
-        'tareas': "<p>Encargado del análisis y desarrollo de aplicaciones web, basadas en el lenguaje de programación Python con su framework django, adaptar la plantilla (css , html , js).</p><p>Desarrollo de Sistema que ayuda a automatizar las ventas de Certificados Digitales  el cual incluye scraping a la RENIEC y SUNAT</p>",
+        'tareas': "<p>Encargado del análisis y desarrollo portal <a href='https://identity.gramd.com/pki/'>PartnerCenter</a>, basadas en el lenguaje de programación Python con su framework django, adaptar la plantilla (css , html , js).</p><p>Desarrollo de Sistema que ayuda a automatizar las ventas de Certificados Digitales  el cual incluye scraping a la RENIEC y SUNAT</p>",
         "tiempo": "Abril 2016 - Diciembre 2016",
         "logo": "/img/gramd.jpg",
         "background": "#fff"
@@ -64,7 +64,7 @@ var data_experiencia = [
         'url': "https://www.staffdigital.pe/",
         "rubro": "Empresa dedicada al marketing digital, desarrollo de paginas web y aplicaciones mobiles",
         "cargo": "Desarrollador Fullstack",
-        'tareas': "<p>Desarrollo de Ecommerce: Creando API REST con el lenguaje de programación Python - Django, integrando el frontend  con Vue js</p>",
+        'tareas': "<p>Desarrollo del Ecommerce <a href='https://www.primeclub.pe/'>Primeclub</a>: Creando API REST con el lenguaje de programación Python - Django, integrando el frontend  con Vue js</p>",
         "tiempo": "Mayo 2017 - Octubre 2017",
         "logo": "/img/logo-staffdigital.png",
         "background": "#fff"

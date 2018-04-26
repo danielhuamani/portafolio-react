@@ -10,7 +10,7 @@ class MisDatos extends React.Component {
                 <div className="cnt-general">
                   <h2 className="title">ACERCA DE MI</h2>
                   <div className="detalle-avatar">
-                    <figure><img src={process.env.PUBLIC_URL + '/img/avatar.png'} width="250"/></figure>
+                    <figure><img title='daniel huamani' src={process.env.PUBLIC_URL + '/img/avatar.png'} width="250"/></figure>
                     <div className="detalle">
                       <div className="descripcion">
 
