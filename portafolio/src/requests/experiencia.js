@@ -68,6 +68,18 @@ var data_experiencia = [
         "tiempo": "Mayo 2017 - Octubre 2017",
         "logo": "/img/logo-staffdigital.png",
         "background": "#fff"
+    },
+    {
+
+        'id': 7,
+        'empresa': "Lucumalabs",
+        'url': "https://lucumalabs.com/",
+        // "rubro": "Empresa a la innovaci",
+        "cargo": "Desarrollador Fullstack",
+        'tareas': "<p>Proyecto : Universidad Peruana de Ciencias Aplicadas</p><p>Esta hecho con python - django y angular js, realice test unitarios maquetación de nuevas pantallas e integración con angular js que consumía API REST de Django</p>",
+        "tiempo": "Noviembre 2017 - Febrero 2018",
+        "logo": "/img/lucuma.jpg",
+        "background": "#fff"
     }
 ];
 
