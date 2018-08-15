@@ -96,5 +96,3 @@ var data_experiencia = [
 ];
 
 export default data_experiencia;
-
-Daniel Huamani
