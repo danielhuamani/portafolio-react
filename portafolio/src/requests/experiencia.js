@@ -80,7 +80,21 @@ var data_experiencia = [
         "tiempo": "Noviembre 2017 - Febrero 2018",
         "logo": "/img/lucuma.jpg",
         "background": "#fff"
+    },
+    {
+
+        'id': 7,
+        'empresa': "Lucumalabs",
+        'url': "http://weeare.pe/",
+        // "rubro": "Empresa a la innovaci",
+        "cargo": "Desarrollador Fullstack",
+        'tareas': "<p>Proyecto : <a href='https://bancofalabellapromociones.pe'>Bancofalabella</a></p><p>Esta hecho con python - django , realizar un portal donde los clientes del banco puedan ver descuentos </p>",
+        "tiempo": "Abril 2018 - Actualmente",
+        "logo": "/img/weeare.png",
+        "background": "#fff"
     }
 ];
 
 export default data_experiencia;
+
+Daniel Huamani
